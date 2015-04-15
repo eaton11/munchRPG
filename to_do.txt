@@ -1,0 +1,18 @@
+TO DO
+==============
+
+incorporate the asset loader i made into the engine
+
+[]make the player character have their own canvas, easier for flipping veritically and horizontal
+
+[]fix the flipping first
+
+remove the "Player" object and make the munch.player just inherit from Layer.
+
+every Layer object will be 100% tall and wide.you cannot make them smaller.  this will make collision between layer easy. 
+	
+make a Munch object that is the first thing to instantiate. It will be the container for all of the layers. it will be position relative. all of the children (Layers) will be position absolute
+
+allow the user to alter the Munch container positioning with css.
+
+$49SRE11dom
