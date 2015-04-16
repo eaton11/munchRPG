@@ -1,4 +1,5 @@
-munch.player = new Player();
+var munch = new Munch();
+munch.player = new Player(document.body);
 
 munch.animationPreloader = new Preloader(function(){ 
 	munch.init();
@@ -50,6 +51,7 @@ munch.player.fixedXAxis(true);
 munch.player.fixedYAxis(true);
 
 munch.init = function(){
+	console.log(munch);
 	setTimeout(munch.loop, 250);
 };
 
